@@ -43,6 +43,7 @@ function Username() {
 
               <div className="textbox flex flex-col items-center gap-6">
                 <input  {...formik.getFieldProps('username')} className={styles.textbox} type="text" placeholder="Username"/>
+                {/* <input  {...formik.getFieldProps('email')} className={styles.textbox} type="text" placeholder="Email"/> */}
                 <button className={styles.btn} type="submit">Lets Go</button>
               </div>
 
